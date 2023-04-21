@@ -1,0 +1,90 @@
+/* Define a style for the header */
+header {
+    background-color: #bba4eb;
+    color: white;
+    font-weight: bold; 
+	font-family: 'Courier New', Courier, monospace
+  }
+  
+  /* Define a style for the h1 tag */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Define a style for the navigation links */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+	font-family:Cambria, "Times New Roman", serif;
+  }
+  
+  nav a:hover {
+    color: gray;
+  }
+  
+  /* Define a style for the h5 tag */
+  h5 {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #2c3ab8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  /* Define a style for the Tableau placeholder div */
+  .tableauPlaceholder {
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .div1 {
+    background-color: azure;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 700px;
+    border: 3px solid black;
+}
+
+.div2 {
+    background-color: azure;
+    top: 200px;
+    left: 5px;
+    right: 5px;
+    height: 580px;
+    border: 3px solid black;
+}
+
+.div3 {
+    background-color: azure;
+    font-family: fantasy;
+    font-weight: bold;
+    top: 1342px;
+    left: 5px;
+    right: 5px;
+    height: 1300px;
+    border: 3px solid black;
+}
+
+.div4 {
+    font-size: 10px;
+    font-style: normal;
+    color: dimgrey;
+    text-align: center;
+    float: right;
+    padding-bottom: 8px;
+}
+
+.div5 {
+    font-size: 10px;
+    font-style: normal;
+    color: dimgrey;
+    text-align: center;
+    float: none;
+    padding-bottom: 8px;
+}
+
+.div6 {
+    background-image: url('../Images/goldenforest.png');
+}
